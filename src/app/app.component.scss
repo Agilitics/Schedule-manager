@@ -1,15 +1,11 @@
-
 html{
-	
-	background-image: url(..\assets\picture.jpg);
-	background-size: 80%;
-
+	background-image: url('../assets/fruit.jpg');
+    background-size:100%;
 }
 h1 {
 	color: brown;
 	font-size: 300%;
+	text-align:center;
 
 }
-.background-image {
-	text-align: center !important;
-}
+

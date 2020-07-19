@@ -1,0 +1,71 @@
+<div class="toolbar" role="banner">
+
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+     <button mat-menu-item [matMenuTriggerFor]="Fruits">Fruits</button>
+     <button mat-menu-item [matMenuTriggerFor]="Vegetables">Vegetables</button>
+     <button mat-menu-item [matMenuTriggerFor]="Diaryproducts">Diaryproducts</button>
+  </mat-menu>
+
+  <mat-menu #Fruits="matMenu">
+     <button mat-menu-item>Apple</button>
+     <button mat-menu-item>Mango</button>
+     <button mat-menu-item>Strawberry</button>
+  </mat-menu>
+
+  <mat-menu #Vegetables="matMenu">
+     <button mat-menu-item>Tomato</button>
+     <button mat-menu-item>Onion</button>
+     <button mat-menu-item>Potato</button>
+  </mat-menu>
+
+  <mat-menu #Diaryproducts="matMenu">
+     <button mat-menu-item>Milk</button>
+     <button mat-menu-item>Curd</button>
+  </mat-menu>
+</div>  
+
+
+<div class="container">
+	<div class="row">
+		<div class = "mat-card">
+			<mat-card class="card">
+			  <mat-card-content>
+			  	<div class="content">
+			      <p>
+			      "Be a fruit loop in </p>
+			      <p> 
+			      the world full of cheerios"
+			      </p>
+			    </div>
+			  </mat-card-content>
+			  <mat-card-actions>
+			    <button mat-button>LIKE</button>
+			    <button mat-button>SHARE</button>
+			  </mat-card-actions>
+			</mat-card>
+		</div>
+		<div class = "mat-card">
+			<mat-card class="card">
+			  <mat-card-content>
+			  	<div class="content">
+			      <p>
+			      "Squeeze the day by </p>
+			      <p>
+			      eating healthy"
+			      </p>
+			    </div>  
+			  </mat-card-content>
+			  <mat-card-actions>
+			    <button mat-button>LIKE</button>
+			    <button mat-button>SHARE</button>
+			  </mat-card-actions>
+			</mat-card>
+		</div>
+	</div>
+</div>	
+		
+
+
+
+
