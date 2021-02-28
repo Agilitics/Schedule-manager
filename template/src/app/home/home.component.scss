@@ -1,0 +1,40 @@
+.container{
+    left:300;
+    right:300;
+	}
+
+.row{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow:wrap;}
+
+.card{
+    left:50;
+    right:100;
+	width:100%;
+	background:#fff;
+	boarder:1px solid #ccc;
+	margin-bottom:50px;
+	transition:0.3s;
+	padding:40px 10px;
+	background: linear-gradient(to right, #ff416c, #ff4b2b);
+
+}
+.content{
+	padding:0px 0px;
+	text-align:center;
+	font-size:18px;
+	background: linear-gradient(to right, #ff416c, #ff4b2b);
+	color: #fff;
+	}
+.nav-link{
+	color:white;
+	boarder:1px solid #ccc;
+
+}	
+.card:hover{
+	transform: scale(1.05);
+	box-shadow: 0 40px 40px -10px rgba(0, 0, 0, 0.25); 
+
+}

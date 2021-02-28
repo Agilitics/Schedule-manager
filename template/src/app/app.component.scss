@@ -1,0 +1,31 @@
+.navbar{
+    width: 50%;
+    color:black;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    margin-left: 250px;
+ }   
+
+.card{
+    left:200;
+    right:200;
+	width:100%;
+	background: black;
+	boarder:1px solid #fff;
+	margin-bottom:20px;
+	transition:0.3s;
+	padding:50px 50px;
+	background: linear-gradient(to right, #A9A9A9, #D8BFD8, #D3D3D3);
+}
+.content{
+	padding:0px 0px;
+	text-align:center;
+	font-size:18px;
+	color: #fff;
+	}	
+.content{
+	color:black;
+	text-align:center;
+}
